@@ -1,0 +1,57 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.nav-item {
+  /* @apply w-full; */
+  width: 100%;
+  /* background-color: #f5cb5c; */
+}
+
+.nav-link {
+  @apply flex items-center gap-2 uppercase justify-center pt-2 pb-2;
+  background-color: #cfdbd5;
+  border-bottom: 3px solid #242423;
+}
+
+.router-link-active {
+  font-weight: bold;
+  border-bottom: none;
+  background-color: #e8eddf;
+}
+
+.input-field {
+  @apply border-b mb-2;
+}
+
+.input-label {
+  @apply font-bold text-sm;
+}
+
+body {
+  color: #242423;
+}
+
+.btn {
+  background-color: #f5cb5c;
+  width: 150px;
+  margin: 0 auto;
+  color: #242423;
+  padding: 5px 0;
+  padding-bottom: 8px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin: 16px auto;
+}
+
+.btn-profile {
+  margin: 4px 0;
+  width: 300px;
+}
+
+.btn:hover {
+  background-color: #242423;
+  color: #e8eddf;
+}
